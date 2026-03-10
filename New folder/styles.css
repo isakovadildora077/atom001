@@ -1,0 +1,171 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #212529;
+    padding: 100px 0;
+    color: #fff;
+}
+.katta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.animation {
+    position: relative;
+    width: 366px;
+    height: 366px;
+    margin: 0 50px;
+}
+.animation1 {
+    position: absolute;
+    animation: dark-red 50s linear infinite;
+}
+.animation2 {
+    position: absolute;
+    animation: dark-red 30s linear infinite;
+}
+.animation3 {
+    position: absolute;
+    animation: dark-red 70s linear infinite;
+}
+.animation4 {
+    position: absolute;
+    animation: dark-red 60s linear infinite;
+}
+.animation5 {
+    position: absolute;
+    animation: dark-red 50s linear infinite;
+}
+.animation6 {
+    position: absolute;
+    animation: dark-red 40s linear infinite;
+}
+.animation7 {
+    position: absolute;
+    animation: dark-red 40s linear infinite;
+}
+.animation8 {
+    position: absolute;
+    animation: dark-red 30s linear infinite;
+}
+@keyframes dark-red {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.animation9 {
+    position: absolute;
+    animation: dark-red 40s linear infinite;
+}
+.animation10 {
+    position: absolute;
+}
+.logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.octopus {
+    animation: octopus 4s alternate ease-in-out infinite;
+}
+@keyframes octopus {
+    0% {
+    transform: translateY(-70px);
+}
+    100% {
+    transform: translateY(70px);
+}
+}
+h2 {
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+}
+.yozuv a {
+    text-decoration: none;
+    color: #212529;
+    background-color: #ffd152;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: 500;
+    font-family: sans-serif;
+    display: inline-block;
+}
+.yozuv {
+    text-align: center;
+    width: 222px;
+    color: #efdab9;
+    border: 1px solid #ffda9633;
+    border-radius: 20px;
+}
+.a {
+    padding: 20px;
+}
+.win {
+    padding: 20px;
+        border-bottom: 1px solid #ffda9633;
+}
+.h2 h2 {
+        letter-spacing: 10px;
+}
+.yozuv p {
+    font-size: 13px;
+    margin-top: 5px;
+    color: #887f71;
+    font-family: sans-serif;
+}
+.h2 {
+    padding: 25px;
+    border-bottom: 1px solid #ffda9633;
+}
+.p {
+    padding: 20px;
+    border-bottom: 1px solid #ffda9633;
+}
+.r {
+    display: flex;
+    text-align: center;
+}
+p {
+    font-family: sans-serif;
+    color: #887f71;
+    text-align: center;
+}
+a {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #887f71;
+    font-size: 17px;
+}
+a .p2 {
+    margin-right: 40px;
+    font-size: 17px;
+}
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    color: #efdab9;
+}
+.a1 {
+    font-size: 17px;
+}
+h1 span {
+    color: #2bbe9e;
+}
+.p3 {
+    margin-top: 50px;
+    font-size: 17px;
+}
+.logo {
+    width: 150px;
+    height: 150px;
+}
